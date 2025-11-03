@@ -7,7 +7,7 @@ Your job is now to perform a Correlation Power Analysis (CPA) on these traces. Y
 
 Below you can see the operation you are targeting. This is the processing of the first four bits of the first round of the cipher.
 The `in` variable is 4 bits of known plaintext, $k$ are the four key bits you need to figure out and $y$ is the value you are attacking.
-![[resources/PRESENT_operation.jpg]]
+![[/resources/PRESENT_operation.jpg]]
 Note: For these traces, the cipher was implemented on an ARM Cortex-M processor and the trace acquisition was performed with an electromagnetic probe placed on top of the chip. This often increases the amount of noise in the signal, so correlation peaks might not be very clear!
 
 ## Steps to perform the attack
